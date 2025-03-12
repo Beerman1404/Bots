@@ -15,6 +15,8 @@ ru_main_message = """❗️ ПРИВАТНЫЕ КАНАЛЫ ❗️
  2200700872125074 💳
 (российская банковская карта/также принимаем оплату в криптовалюте)
 
+https://t.me/tarantino_221 — ДОСТУП/СКРИНШОТ ОПЛАТЫ
+
 💎СКИДКА 10% ПРИ ОПЛАТЕ КРИПТОВАЛЮТОЙ 
 
 USDT TRC 20 TLMjwzBtmHfyz1saYsyuXwbLh4Zczv4dkg 
@@ -49,6 +51,8 @@ en_main_message = """❗️ PRIVATE CHANNELS ❗️
 
 💳 2200700872125074 💳
 (Russian bank card/also accept payment in cryptocurrency)
+
+https://t.me/tarantino_221 - ACCESS/PAYMENT SCREENSHOT
 
 USDT TRC 20 TLMjwzBtmHfyz1saYsyuXwbLh4Zczv4dkg 
 
