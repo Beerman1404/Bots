@@ -9,6 +9,7 @@ from aiogram.filters.command import Command
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 from aiogram.types import LinkPreviewOptions
+from aiogram.types import FSInputFile
 
 from keyboards import choice_lang_kb, ru_kb, en_kb
 from message_texts import ru_main_message, en_main_message, ru_proofs_message, en_proofs_message
@@ -88,6 +89,52 @@ async def en_admin(message: types.Message):
 async def en_back(message: types.Message):
     await message.answer("LANGUAGE MENU", reply_markup=choice_lang_kb)
 
+
+@dp.message(F.text == "❗️ ПРОБНЫЕ ВИДЕО ❗️")
+async def test_video(message: types.Message):
+    video_from_pc = FSInputFile("videos/IMG_8558.MOV")
+    await message.answer_video(video_from_pc, width=240, height=120)
+    video_from_pc = FSInputFile("videos/IMG_8559.MOV")
+    await message.answer_video(video_from_pc, width=120, height=240)
+    video_from_pc = FSInputFile("videos/IMG_8560.MOV")
+    await message.answer_video(video_from_pc, width=120, height=240)
+    video_from_pc = FSInputFile("videos/IMG_8561.MOV")
+    await message.answer_video(video_from_pc, width=120, height=240)
+    video_from_pc = FSInputFile("videos/IMG_8562.MOV")
+    await message.answer_video(video_from_pc, width=120, height=240)
+    video_from_pc = FSInputFile("videos/IMG_8563.MOV")
+    await message.answer_video(video_from_pc, width=120, height=240)
+    video_from_pc = FSInputFile("videos/IMG_8564.MOV")
+    await message.answer_video(video_from_pc, width=120, height=240)
+    video_from_pc = FSInputFile("videos/IMG_8565.MOV")
+    await message.answer_video(video_from_pc, width=120, height=240)
+    video_from_pc = FSInputFile("videos/IMG_8567.MOV")
+    await message.answer_video(video_from_pc, width=120, height=240)
+    video_from_pc = FSInputFile("videos/IMG_8568.MOV")
+    await message.answer_video(video_from_pc, width=240, height=120)
+
+@dp.message(F.text == "❗️ TEST VIDEOS ❗️")
+async def test_video(message: types.Message):
+    video_from_pc = FSInputFile("videos/IMG_8558.MOV")
+    await message.answer_video(video_from_pc, width=240, height=120)
+    video_from_pc = FSInputFile("videos/IMG_8559.MOV")
+    await message.answer_video(video_from_pc, width=120, height=240)
+    video_from_pc = FSInputFile("videos/IMG_8560.MOV")
+    await message.answer_video(video_from_pc, width=120, height=240)
+    video_from_pc = FSInputFile("videos/IMG_8561.MOV")
+    await message.answer_video(video_from_pc, width=120, height=240)
+    video_from_pc = FSInputFile("videos/IMG_8562.MOV")
+    await message.answer_video(video_from_pc, width=120, height=240)
+    video_from_pc = FSInputFile("videos/IMG_8563.MOV")
+    await message.answer_video(video_from_pc, width=120, height=240)
+    video_from_pc = FSInputFile("videos/IMG_8564.MOV")
+    await message.answer_video(video_from_pc, width=120, height=240)
+    video_from_pc = FSInputFile("videos/IMG_8565.MOV")
+    await message.answer_video(video_from_pc, width=120, height=240)
+    video_from_pc = FSInputFile("videos/IMG_8567.MOV")
+    await message.answer_video(video_from_pc, width=120, height=240)
+    video_from_pc = FSInputFile("videos/IMG_8568.MOV")
+    await message.answer_video(video_from_pc, width=240, height=120)
 
 if __name__ == "__main__":
     asyncio.run(main())
