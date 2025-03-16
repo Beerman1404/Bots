@@ -30,9 +30,9 @@ https://t.me/tarantino_221 — СКРИНШОТ ОПЛАТЫ/ДОСТУП"""
 ru_proofs_message = """ТОЛЬКО В НАШИХ ПРИВАТНЫХ КАНАЛАХ ВЫ НАЙДЕТЕ ТЫСЯЧИ НОВЫХ/РАЗНЫХ/НАСТОЯЩИХ/КРАСИВЫХ/ЛУЧШИХ/РУССКИХ ДЕВОЧЕК ЛЮБОГО ВОЗРАСТА БЕЗ ИНТИМА С РАЗНЫМИ НОЖКАМИ НА ЛЮБОЙ ВКУС/В РАЗНЫХ РАКУРСАХ С ЛИЦОМ/БОСИКОМ/В НОСОЧКАХ/КОЛГОТКАХ/ЧУЛКАХ/ГОЛЬФАХ/СЛЕДКАХ + РАЗГОВОРЫ + ДЛИННЫЕ ВИДЕО + МНОГО ДЕВОЧЕК В ОДНОМ КАДРЕ + ГРЯЗНЫЕ НОЖКИ/УНИЖЕНИЯ/ОСКОРБЛЕНИЯ/ИЗДЕВАТЕЛЬСТВА/ДОМИНИРОВАНИЕ + ФУТДЖОБ (БЕЗ ИНТИМА) + ОБЛИЗЫВАНИЕ/ОБНЮХИВАНИЕ/СЛЮНИ/ФАКИ + ДОСТУП/ЧАСТЫЕ ОБНОВЛЕНИЯ НАВСЕГДА
 
 ❗️ КАНАЛ С ПРУФАМИ И ОТЗЫВАМИ ❗️
-https://t.me/feet_girls_feet
-https://t.me/feet_girls_feet
-https://t.me/feet_girls_feet
+https://t.me/tarantino_otzivi
+https://t.me/tarantino_otzivi
+https://t.me/tarantino_otzivi
 """
 
 en_main_message = """❗️ PRIVATE CHANNELS ❗️
@@ -62,7 +62,7 @@ https://t.me/tarantino_221 - PAYMENT SCREENSHOT/ACCESS"""
 en_proofs_message = """ONLY IN OUR PRIVATE CHANNELS YOU WILL FIND THOUSANDS OF NEW / DIFFERENT / REAL / BEAUTIFUL / BEST / RUSSIAN GIRLS OF ANY AGE WITHOUT INTIMACY WITH DIFFERENT LEGS FOR EVERY TASTE / IN DIFFERENT ANGLES WITH A FACE / BAREFOOT / IN SOCKS / TIGHTS / STOCKINGS / KNEE SOCKS / SLEDGES + CONVERSATIONS + LONG VIDEOS + MANY GIRLS IN ONE FRAME + DIRTY FEET/HUMILIATION/INSULTS/BULLYING/DOMINATION + FOOTJOB (NO SEX) + LICKING/SNIFFING/DROOLING/FAKIE + ACCESS/FREQUENT UPDATES FOREVER
 
 ❗️ CHANNEL WITH PRUFAS AND REVIEWS ❗️
-https://t.me/feet_girls_feet
-https://t.me/feet_girls_feet
-https://t.me/feet_girls_feet
+https://t.me/tarantino_otzivi
+https://t.me/tarantino_otzivi
+https://t.me/tarantino_otzivi
 """
