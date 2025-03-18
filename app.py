@@ -112,6 +112,11 @@ async def test_video(message: types.Message):
     await message.answer_video(video_from_pc, width=240, height=120)
     video_from_pc = FSInputFile("videos/IMG_10.MP4")
     await message.answer_video(video_from_pc, width=240, height=120)
+    video_from_pc = FSInputFile("videos/IMG_11.MOV")
+    await message.answer_video(video_from_pc, width=120, height=240)
+    video_from_pc = FSInputFile("videos/IMG_12.MOV")
+    await message.answer_video(video_from_pc, width=240, height=240)
+
 
 @dp.message(F.text == "❗️ TEST VIDEOS ❗️")
 async def test_video(message: types.Message):
@@ -135,5 +140,10 @@ async def test_video(message: types.Message):
     await message.answer_video(video_from_pc, width=240, height=120)
     video_from_pc = FSInputFile("videos/IMG_10.MP4")
     await message.answer_video(video_from_pc, width=240, height=120)
+    video_from_pc = FSInputFile("videos/IMG_11.MOV")
+    await message.answer_video(video_from_pc, width=120, height=240)
+    video_from_pc = FSInputFile("videos/IMG_12.MOV")
+    await message.answer_video(video_from_pc, width=240, height=240)
+        
 if __name__ == "__main__":
     asyncio.run(main())
