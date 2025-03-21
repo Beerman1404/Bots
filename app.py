@@ -78,7 +78,7 @@ async def ru_back(message: types.Message):
 @dp.message(F.text == "English")
 async def en_lang(message: types.Message):
     photo_from_pc = FSInputFile('videos/photo_1.jpg')
-    await message.answer_photo(photo=photo_from_pc, caption="CLICK THE BUTTON\n❗️PRICE LIST ❗️\nAND GET THE BEST CONTENT WITH LEGS\n⬇️⬇️⬇️", йreply_markup=en_kb)
+    await message.answer_photo(photo=photo_from_pc, caption="CLICK THE BUTTON\n❗️PRICE LIST ❗️\nAND GET THE BEST CONTENT WITH LEGS\n⬇️⬇️⬇️", reply_markup=en_kb)
     
 @dp.message(F.text == "❗️ PRICE LIST ❗️")
 async def en_lang(message: types.Message):
