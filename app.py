@@ -25,7 +25,7 @@ logging.basicConfig(level=logging.INFO)
 
 
 # Объект бота
-bot = Bot(token="7225610147:AAFWKvGAYvbHYybj1qpm1MRh8lpjErlcYPw",
+bot = Bot(token="8048939688:AAFmtrY87-xLmOiHVmzUSuweSwRJroMFnOc",
         default=DefaultBotProperties(
             parse_mode=ParseMode.HTML
         )
@@ -50,6 +50,11 @@ async def cmd_start(message: types.Message):
 ## Русский вариант ##
 @dp.message(F.text == "Russian")
 async def ru_lang(message: types.Message):
+    photo_from_pc = FSInputFile('videos/photo_1.jpg')
+    await message.answer_photo(photo=photo_from_pc, caption='НЖИМАЙ НА КНОПКУ\n❗️ ПРАЙС ЛИСТ ❗️\nИ ЗАБИРАЙ САМЫЕ СОЧНЫЕ КАНАЛЫ\n⬇️⬇️⬇️', reply_markup=ru_kb)
+    
+@dp.message(F.text == "❗️ ПРАЙС ЛИСТ ❗️")
+async def ru_lang(message: types.Message):
     await message.answer(ru_main_message, link_preview_options=LinkPreviewOptions(url="https://t.me/tarantino_221"), reply_markup=ru_kb)
 
 # хендлер для обработки кнопки ПРУФЫ/ОТЗЫВЫ
@@ -71,6 +76,11 @@ async def ru_back(message: types.Message):
 
 ## Английский вариант ##
 @dp.message(F.text == "English")
+async def en_lang(message: types.Message):
+    photo_from_pc = FSInputFile('videos/photo_1.jpg')
+    await message.answer_photo(photo=photo_from_pc, caption="CLICK THE BUTTON\n❗️ PRICE LIST ❗️\nAND GET THE JUICIEST CHANNELS\n⬇️⬇️⬇️", йreply_markup=en_kb)
+    
+@dp.message(F.text == "❗️ PRICE LIST ❗️")
 async def en_lang(message: types.Message):
     await message.answer(en_main_message, link_preview_options=LinkPreviewOptions(url="https://t.me/tarantino_221"), reply_markup=en_kb)
 
