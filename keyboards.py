@@ -9,6 +9,7 @@ choice_lang_kb = types.ReplyKeyboardMarkup(
 
 ru_kb = types.ReplyKeyboardMarkup(keyboard=[
     [types.KeyboardButton(text="❗️ ПРОБНЫЕ ВИДЕО ❗️")],
+    [types.KeyboardButton(text="❗️ ПРАЙС ЛИСТ ❗️")],
     [types.KeyboardButton(text="❗️ ПРУФЫ/ОТЗЫВЫ ❗️")],
     [types.KeyboardButton(text="❗️ АДМИНИСТРАТОР ❗️")],
     [types.KeyboardButton(text="❗️ НАЗАД ❗️")]
@@ -18,6 +19,7 @@ ru_kb = types.ReplyKeyboardMarkup(keyboard=[
 
 en_kb = types.ReplyKeyboardMarkup(keyboard=[
     [types.KeyboardButton(text="❗️ TEST VIDEOS ❗️")],
+    [types.KeyboardButton(text="❗️ PRICE LIST ❗️")],
     [types.KeyboardButton(text="❗️ PROOFS/REVIEWS ❗️")],
     [types.KeyboardButton(text="❗️ ADMINISTRATOR ❗️")],
     [types.KeyboardButton(text="❗️ BACK ❗️")]
