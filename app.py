@@ -25,7 +25,7 @@ logging.basicConfig(level=logging.INFO)
 
 
 # Объект бота
-bot = Bot(token="8048939688:AAFmtrY87-xLmOiHVmzUSuweSwRJroMFnOc",
+bot = Bot(token="7225610147:AAFWKvGAYvbHYybj1qpm1MRh8lpjErlcYPw",
         default=DefaultBotProperties(
             parse_mode=ParseMode.HTML
         )
