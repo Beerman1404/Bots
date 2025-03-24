@@ -51,7 +51,7 @@ async def cmd_start(message: types.Message):
 @dp.message(F.text == "Russian")
 async def ru_lang(message: types.Message):
     photo_from_pc = FSInputFile('videos/photo_1.jpg')
-    await message.answer_photo(photo=photo_from_pc, caption='НАЖИМАЙ НА КНОПКУ\n❗️ ПРАЙС ЛИСТ ❗\nИ ЗАБИРАЙ ЛУЧШИЙ КОНТЕНТ С НОЖКАМИ\n⬇️⬇️⬇️', reply_markup=ru_kb)
+    await message.answer_photo(photo=photo_from_pc, caption='🦶🏻ЗАБИРАЙ ЛУЧШИЙ КОНТЕНТ С НОЖКАМИ🦶🏻\n⬇️⬇️⬇️', reply_markup=ru_kb)
     
 @dp.message(F.text == "❗️ ПРАЙС ЛИСТ ❗️")
 async def ru_lang(message: types.Message):
@@ -78,7 +78,7 @@ async def ru_back(message: types.Message):
 @dp.message(F.text == "English")
 async def en_lang(message: types.Message):
     photo_from_pc = FSInputFile('videos/photo_1.jpg')
-    await message.answer_photo(photo=photo_from_pc, caption="CLICK THE BUTTON\n❗️PRICE LIST ❗️\nAND GET THE BEST CONTENT WITH LEGS\n⬇️⬇️⬇️", reply_markup=en_kb)
+    await message.answer_photo(photo=photo_from_pc, caption="🦶🏻GET THE BEST CONTENT WITH LEGS🦶🏻\n⬇️⬇️⬇️", reply_markup=en_kb)
     
 @dp.message(F.text == "❗️ PRICE LIST ❗️")
 async def en_lang(message: types.Message):
