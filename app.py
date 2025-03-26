@@ -50,11 +50,6 @@ async def cmd_start(message: types.Message):
 ## Русский вариант ##
 @dp.message(F.text == "Russian")
 async def ru_lang(message: types.Message):
-    photo_from_pc = FSInputFile('videos/photo_1.jpg')
-    await message.answer_photo(photo=photo_from_pc, caption='🦶🏻ЗАБИРАЙ ЛУЧШИЙ КОНТЕНТ С НОЖКАМИ🦶🏻\n⬇️⬇️⬇️', reply_markup=ru_kb)
-    
-@dp.message(F.text == "❗️ ПРАЙС ЛИСТ ❗️")
-async def ru_lang(message: types.Message):
     await message.answer(ru_main_message, link_preview_options=LinkPreviewOptions(url="https://t.me/tarantino_221"), reply_markup=ru_kb)
 
 # хендлер для обработки кнопки ПРУФЫ/ОТЗЫВЫ
@@ -76,11 +71,6 @@ async def ru_back(message: types.Message):
 
 ## Английский вариант ##
 @dp.message(F.text == "English")
-async def en_lang(message: types.Message):
-    photo_from_pc = FSInputFile('videos/photo_1.jpg')
-    await message.answer_photo(photo=photo_from_pc, caption="🦶🏻GET THE BEST CONTENT WITH LEGS🦶🏻\n⬇️⬇️⬇️", reply_markup=en_kb)
-    
-@dp.message(F.text == "❗️ PRICE LIST ❗️")
 async def en_lang(message: types.Message):
     await message.answer(en_main_message, link_preview_options=LinkPreviewOptions(url="https://t.me/tarantino_221"), reply_markup=en_kb)
 
