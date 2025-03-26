@@ -44,7 +44,7 @@ https://t.me/tarantino_otzivi
 
 en_main_message = """❗️ PRIVATE CHANNELS ❗️
 
-🦶BAREFOOT (MONTHLY ACCESS) — 99 RUB (one delicious private channel with the best/private/unique/high-quality ONLY PHOTOS of the feet of beautiful Russian girls of any age without intimacy/barefoot in any angles with a face + frequent updates)
+🦶BAREFOOT (MONTHLY ACCESS) — 5 USD (one delicious private channel with the best/private/unique/high-quality ONLY PHOTOS of the feet of beautiful Russian girls of any age without intimacy/barefoot in any angles with a face + frequent updates)
 
 🦶 BAREFOOT - 10 USD (one tasty private channel with the best/private/unique/quality ONLY PHOTOS of legs of beautiful Russian girls of any age without intimacy/barefoot in any angles with face + frequent updates forever)
 
