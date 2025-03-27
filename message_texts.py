@@ -50,6 +50,8 @@ en_main_message = """❗️ PRIVATE CHANNELS ❗️
 
 🦶 BAREFOOT PLUS - 30 USD (one tasty private channel with the best/private/unique/quality VIDEO/PHOTOS of legs of beautiful Russian girls of any age without intimacy/barefoot in any angles with face + frequent updates forever)
 
+😛 LICKING/SNIFFING — 60 USD (one delicious private channel with the best/private/unique/high-quality/endless PHOTOS/VIDEOS of legs of beautiful/Russian girls of any age without intimacy/barefoot/in socks/pantyhose from any angles with a face that licks/sniffs their legs + long videos + access/frequent updates forever)
+
 🔥 VIP - 90 USD (one tasty private channel with the best/private/unique/unique/quality VIDEO/PHOTOS of beautiful Russian girls' legs of any age without intimacy/barefoot/in socks/pantyhose in any angles with face + TALKING + LONG VIDEO + MULTIPLE GIRLS IN ONE FACE + tickling/obliviating/sniffing + dirty + frequent updates forever).
 
 ❤️ ALL CHANNELS - 100 USD (all our tasty/best/quality private leg channels + frequent updates forever)
