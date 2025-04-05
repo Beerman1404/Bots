@@ -1,6 +1,6 @@
 import os
 
-#from dotenv import load_dotenv
+from dotenv import load_dotenv
 
 import asyncio
 import logging
@@ -14,10 +14,7 @@ from aiogram.types import FSInputFile
 from keyboards import choice_lang_kb, ru_kb, en_kb
 from message_texts import ru_main_message, en_main_message, ru_proofs_message, en_proofs_message
 
-# путь к .env файлу с переменными для библиотеки os
-#dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
-#if os.path.exists(dotenv_path):
-#    load_dotenv(dotenv_path)
+load_dotenv()
 
 # Включаем логирование, чтобы не пропустить важные сообщения
 logging.basicConfig(level=logging.INFO)
@@ -25,7 +22,7 @@ logging.basicConfig(level=logging.INFO)
 
 
 # Объект бота
-bot = Bot(token="7225610147:AAFWKvGAYvbHYybj1qpm1MRh8lpjErlcYPw",
+bot = Bot(token=os.getenv('TOKEN'),
         default=DefaultBotProperties(
             parse_mode=ParseMode.HTML
         )
