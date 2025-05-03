@@ -1,4 +1,5 @@
 import os
+from datetime import datetime, timedelta
 
 from dotenv import load_dotenv
 
@@ -11,15 +12,21 @@ from aiogram.enums import ParseMode
 from aiogram.types import LinkPreviewOptions
 from aiogram.types import FSInputFile
 
+from apscheduler.schedulers.asyncio import AsyncIOScheduler
+
+from models import SessionLocal, Users
+
 from keyboards import choice_lang_kb, ru_kb, en_kb, en_gender_kb, ru_gender_kb, ru_boys_kb, en_boys_kb
 from message_texts import ru_main_message, en_main_message, ru_proofs_message, en_proofs_message, boys_ru, boys_eng
 
 load_dotenv()
 
+scheduler = AsyncIOScheduler(timezone="Europe/Moscow")
+
 # Включаем логирование, чтобы не пропустить важные сообщения
 logging.basicConfig(level=logging.INFO)
 
-
+session = SessionLocal()
 
 # Объект бота
 bot = Bot(token=os.getenv('TOKEN'),
@@ -35,6 +42,7 @@ dp = Dispatcher()
 
 # Запуск процесса поллинга новых апдейтов
 async def main():
+    scheduler.start() 
     await bot.delete_webhook(drop_pending_updates=True)
     await dp.start_polling(bot)
 
@@ -42,6 +50,11 @@ async def main():
 @dp.message(Command("start"))
 async def cmd_start(message: types.Message):
     await message.answer("Choose your language", reply_markup=choice_lang_kb)
+    user = session.query(Users).filter_by(telegram_id=message.from_user.id).first()
+    if not user:
+        new_user = Users(telegram_id=message.from_user.id)
+        session.add(new_user)
+        session.commit()
 
 @dp.message(F.text == "Russian")
 async def ru_lang(message: types.Message):
@@ -129,5 +142,31 @@ async def test_video(message: types.Message):
     video_from_pc = FSInputFile("videos/IMG_5.MP4")
     await message.answer_video(video_from_pc, width=240, height=240)
         
+
+def send_video_to_all_users():
+    async def _send_video():
+        users = session.query(Users.telegram_id).all()
+        for user in users:
+            try:
+                video_file = FSInputFile('videos/Daily.MOV')
+                await bot.send_video(user.telegram_id, video_file, width=120, height=220, caption="@FEETGIRLSOLES_BOT - ДОСТУП/ACCESS")
+            except Exception as e:
+                print(f'Ошибка отправки видео пользователю {user.telegram_id} {e}')
+    
+    return _send_video
+
+
+# Первая отправка через неделю
+initial_delay = timedelta(days=7)
+next_run_time = datetime.now() + initial_delay
+
+# Регулярно повторять отправку каждые три недели начиная с первого отправления
+scheduler.add_job(
+    send_video_to_all_users(),
+    trigger="interval",
+    start_date=next_run_time,
+    weeks=3
+)
+
 if __name__ == "__main__":
     asyncio.run(main())
