@@ -26,7 +26,7 @@ ru_boys_kb = types.ReplyKeyboardMarkup(keyboard=[
 )
 
 ru_gender_kb = types.ReplyKeyboardMarkup(keyboard=[
-    [types.KeyboardButton(text="❗️ ДЕВОЧКИ ❗️"), types.KeyboardButton(text="❗️ МАЛЬЧИКИ ❗️")]], 
+    [types.KeyboardButton(text="❗️ МАЛЬЧИКИ ❗️"), types.KeyboardButton(text="❗️ ДЕВОЧКИ ❗️")]], 
     resize_keyboard=True
 )
 
@@ -48,6 +48,6 @@ en_boys_kb = types.ReplyKeyboardMarkup(keyboard=[
 )
 
 en_gender_kb = types.ReplyKeyboardMarkup(keyboard=[
-    [types.KeyboardButton(text="❗️ GIRLS ❗️"), types.KeyboardButton(text="❗️ BOYS ❗️")]], 
+    [types.KeyboardButton(text="❗️ BOYS ❗️"), types.KeyboardButton(text="❗️ GIRLS ❗️")]], 
     resize_keyboard=True
 )
