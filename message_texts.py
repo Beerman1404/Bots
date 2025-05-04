@@ -39,9 +39,11 @@ https://t.me/tarantino_reviews_otzivi
 https://t.me/tarantino_reviews_otzivi
 """
 
-boys_ru = """🔥НОЖКИ МОЛОДЫХ ПАРНЕЙ — 1490 RUB (один вкусный приватный канал с лучшими/частными/уникальными/качественными/бесконечными видео/фото ножек молодых парней без интима/босиком/в носочках в любых ракурсах с лицом + длинные видео + облизывание/обнюхивание + грязные + доступ/частые обновления навсегда)
+boys_ru = """🦶 НОЖКИ МОЛОДЫХ ПАРНЕЙ — 2990 RUB (один вкусный приватный канал с лучшими/частными/уникальными/качественными/бесконечными видео/фото ножек молодых парней без интима/босиком/в носочках в любых ракурсах с лицом + длинные видео + облизывание/обнюхивание + грязные + доступ/частые обновления навсегда) — БОЛЕЕ 900 ВИДЕО И ФОТО
 
-❗️❗️ ОПЛАТА ❗️
+🔥 НОЖКИ МОЛОДЫХ ГОЛЫХ ПАРНЕЙ — 4990 RUB (один вкусный приватный канал с лучшими/частными/уникальными/качественными/бесконечными видео/фото ножек молодых голых 18-летних парней с интимом/босиком/в носочках в любых ракурсах с лицом + длинные видео + облизывание/обнюхивание + грязные + доступ/частые обновления навсегда) — БОЛЕЕ 1500 ВИДЕО И ФОТО
+
+❗️ ОПЛАТА ❗️
 
  2200700872125074 💳
 (российская банковская карта/также принимаем оплату в криптовалюте)
@@ -93,16 +95,16 @@ UQA6_VMuK37zkYjK9bNgTj9-3MMirjdU0A34v3uf1EMGr3Qx
 
 https://t.me/tarantino_221 - PAYMENT SCREENSHOT/ACCESS"""
 
-boys_eng = """🔥 Boy's feet - 50 USD (one tasty private channel with the best/private/unique/quality/endless videos/photos of boys' feet of any age without intimacy/barefoot/in socks/pantyhose in any angles with face + long videos + licking/sniffing + dirty + access/frequent updates forever)
+boys_eng = """🦶 YOUNG GUYS' LEGS - 49 USD (one delicious private channel with the best/private/unique/quality/endless videos/photos of young guys' legs without intimacy/barefoot/in socks in any angle with face + long videos + licking/sniffing + dirty + access/frequent updates forever) - MORE THAN 900 VIDEO AND PHOTOS
 
-❗️❗️ PAY ❗️
+🔥 YOUNG NAKED PARENTS' LEGS - 99 USD (one tasty private channel with the best/private/unique/quality/endless videos/photos of young naked 18-year-old guys' legs with intimacy/barefoot/in socks in any angles with face + long videos + licking/sniffing + dirty + access/frequent updates forever) - MORE than 1500 VIDEO AND PHOTOS
+
+❗️ PAY ❗️
 
  2200700872125074 💳
-(Russian bank card/also accept payment in cryptocurrency)
+(Russian bank card/we also accept payment in cryptocurrency)
 
 ❗️ДЛЯ TO GET ACCESS YOU NEED TO SEND A SCREENSHOT OF PAYMENT TO THE ADMINISTRATOR - https://t.me/tarantino_221.
-
-💎 10% DISCOUNT WHEN PAYING IN CRYPTOCURRENCY 
 
 USDT TRC 20 TLMjwzBtmHfyz1saYsyuXwbLh4Zczv4dkg 
 
