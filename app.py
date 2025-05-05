@@ -75,7 +75,7 @@ async def ru_proofs(message: types.Message):
     await message.answer(ru_proofs_message)
 
 # хендлер для обработки кнопки АДМИНИСТРАТОР
-@dp.message(F.text == "❗️ АДМИНИСТРАТОР ❗️")
+@dp.message(F.text == "❗️ ЗАДАТЬ ВОПРОС ❗️")
 async def ru_admin(message: types.Message):
     await message.answer("❗️ АДМИНИСТРАТОР ❗️\n@tarantino_221", link_preview_options=LinkPreviewOptions(url="https://t.me/tarantino_221"))
 
@@ -105,7 +105,7 @@ async def en_proofs(message: types.Message):
     await message.answer(en_proofs_message)
 
 # хендлер для обработки кнопки ADMINISTRATOR
-@dp.message(F.text == "❗️ ADMINISTRATOR ❗️")
+@dp.message(F.text == "❗️ ASK A QUESTION ❗️")
 async def en_admin(message: types.Message):
     await message.answer("❗️ ADMINISTRATOR ❗️\n@tarantino_221", link_preview_options=LinkPreviewOptions(url="https://t.me/tarantino_221"))
 
