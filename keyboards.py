@@ -10,7 +10,7 @@ choice_lang_kb = types.ReplyKeyboardMarkup(
 ru_kb = types.ReplyKeyboardMarkup(keyboard=[
     [types.KeyboardButton(text="❗️ ПРОБНЫЕ ВИДЕО ❗️")],
     [types.KeyboardButton(text="❗️ ПРУФЫ/ОТЗЫВЫ ❗️")],
-    [types.KeyboardButton(text="❗️ АДМИНИСТРАТОР ❗️")],
+    [types.KeyboardButton(text="❗️ ЗАДАТЬ ВОПРОС ❗️")],
     [types.KeyboardButton(text="❗️ НАЗАД ❗️")]
     ], 
     resize_keyboard=True
@@ -19,7 +19,7 @@ ru_kb = types.ReplyKeyboardMarkup(keyboard=[
 
 ru_boys_kb = types.ReplyKeyboardMarkup(keyboard=[
     [types.KeyboardButton(text="❗️ ПРУФЫ/ОТЗЫВЫ ❗️")],
-    [types.KeyboardButton(text="❗️ АДМИНИСТРАТОР ❗️")],
+    [types.KeyboardButton(text="❗️ ЗАДАТЬ ВОПРОС ❗️")],
     [types.KeyboardButton(text="❗️ НАЗАД ❗️")]
     ], 
     resize_keyboard=True
@@ -33,7 +33,7 @@ ru_gender_kb = types.ReplyKeyboardMarkup(keyboard=[
 en_kb = types.ReplyKeyboardMarkup(keyboard=[
     [types.KeyboardButton(text="❗️ TEST VIDEOS ❗️")],
     [types.KeyboardButton(text="❗️ PROOFS/REVIEWS ❗️")],
-    [types.KeyboardButton(text="❗️ ADMINISTRATOR ❗️")],
+    [types.KeyboardButton(text="❗️ ASK A QUESTION ❗️")],
     [types.KeyboardButton(text="❗️ BACK ❗️")]
     ], 
     resize_keyboard=True
@@ -41,7 +41,7 @@ en_kb = types.ReplyKeyboardMarkup(keyboard=[
 
 en_boys_kb = types.ReplyKeyboardMarkup(keyboard=[
     [types.KeyboardButton(text="❗️ PROOFS/REVIEWS ❗️")],
-    [types.KeyboardButton(text="❗️ ADMINISTRATOR ❗️")],
+    [types.KeyboardButton(text="❗️ ASK A QUESTION ❗️")],
     [types.KeyboardButton(text="❗️ BACK ❗️")]
     ], 
     resize_keyboard=True
