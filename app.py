@@ -11,6 +11,9 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 from aiogram.types import LinkPreviewOptions
 from aiogram.types import FSInputFile
+from aiogram.types import InputMediaVideo
+from aiogram.utils.media_group import MediaGroupBuilder
+from aiogram.fsm.storage.memory import MemoryStorage
 
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
@@ -75,7 +78,7 @@ async def ru_proofs(message: types.Message):
     await message.answer(ru_proofs_message)
 
 # хендлер для обработки кнопки АДМИНИСТРАТОР
-@dp.message(F.text == "❗️ ЗАДАТЬ ВОПРОС ❗️")
+@dp.message(F.text == "❗️ АДМИНИСТРАТОР ❗️")
 async def ru_admin(message: types.Message):
     await message.answer("❗️ АДМИНИСТРАТОР ❗️\n@tarantino_221", link_preview_options=LinkPreviewOptions(url="https://t.me/tarantino_221"))
 
@@ -105,7 +108,7 @@ async def en_proofs(message: types.Message):
     await message.answer(en_proofs_message)
 
 # хендлер для обработки кнопки ADMINISTRATOR
-@dp.message(F.text == "❗️ ASK A QUESTION ❗️")
+@dp.message(F.text == "❗️ ADMINISTRATOR ❗️")
 async def en_admin(message: types.Message):
     await message.answer("❗️ ADMINISTRATOR ❗️\n@tarantino_221", link_preview_options=LinkPreviewOptions(url="https://t.me/tarantino_221"))
 
@@ -148,8 +151,24 @@ def send_video_to_all_users():
         users = session.query(Users.telegram_id).all()
         for user in users:
             try:
-                video_file = FSInputFile('videos/Daily.MOV')
-                await bot.send_video(user.telegram_id, video_file, width=120, height=220, caption="@FEETGIRLSOLES_BOT - ДОСТУП/ACCESS")
+                media_group = MediaGroupBuilder()
+
+                for i in range(7):
+                    file_path = f"videos/spam/IMG_{i+1}.mp4"
+
+                    if not os.path.exists(file_path):
+                        print(f"❌ Файл не найден: {file_path}")
+                        continue
+
+                    file = FSInputFile(file_path)
+                    caption = "@FEETGIRLSOLES_BOT - ДОСТУП/ACCESS" if i == 0 else None
+
+                    media_group.add(
+                    type="video",
+                    media=file,
+                    caption=caption
+                    )
+                    await bot.send_media_group(chat_id=user.telegram_id, media=media_group.build())
             except Exception as e:
                 print(f'Ошибка отправки видео пользователю {user.telegram_id} {e}')
     
